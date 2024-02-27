@@ -1,0 +1,10 @@
+^D:\C++\VSCODEPROJECTS\ASM\FIRSTLABA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++/VSCodeProjects/asm/firstLaba -BD:/C++/VSCodeProjects/asm/firstLaba/build --check-stamp-file D:/C++/VSCodeProjects/asm/firstLaba/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

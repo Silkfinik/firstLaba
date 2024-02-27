@@ -1,0 +1,3 @@
+D:/C++/VSCodeProjects/asm/firstLaba/build/CMakeFiles/laba.dir
+D:/C++/VSCodeProjects/asm/firstLaba/build/CMakeFiles/ALL_BUILD.dir
+D:/C++/VSCodeProjects/asm/firstLaba/build/CMakeFiles/ZERO_CHECK.dir
